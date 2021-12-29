@@ -19,6 +19,9 @@ How to use this bot:
 6. Configure the script settings, make sure the names are valid on coingecko. Ex: Sometimes coins will have hypen (-) make sure to use the full coin name. `shibainu` would be `shiba-inu` and not `shib`. `BTC/Bitcoin` would be just `bitcoin`
 Full list here: https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit#gid=0
 
-7. Throw the script on a vps and run it.
 
+7. Invite the bot to a server. `https://discord.com/oauth2/authorize?client_id={YOUR_BOT_CLIENT_ID}&permissions=335544320&scope=bot`. The only permissions it needs is changing roles + nicknames: `335544320`
+
+8. Run the bot on a VPS! (use tmux or screen to run it in the background!)
 Need a super dope and awesome price bot? Invite hansel. https://hansel.gg/inv
+Need help? Join https://discord.gg/cardano
