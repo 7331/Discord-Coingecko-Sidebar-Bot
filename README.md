@@ -17,6 +17,7 @@ How to use this bot:
 ![image](https://user-images.githubusercontent.com/93408277/147629213-37b69076-4b9a-47b4-b26e-3154f16b69e1.png)
 
 6. Configure the script settings, make sure the names are valid on coingecko. Ex: Sometimes coins will have hypen (-) make sure to use the full coin name. `shibainu` would be `shiba-inu` and not `shib`. `BTC/Bitcoin` would be just `bitcoin`
+Full list here: https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit#gid=0
 
 7. Throw the script on a vps and run it.
 
