@@ -22,7 +22,10 @@ How to use this script:
 5. DOWNLOAD the script, do not copy and paste it. The unicode will mess up the fiat currencies.
 6. Run the script on a VPS (USE TMUX OR SCREEN TO KEEP THEM ALIVE IN THE BACKGROUND!)! Here are some examples:
 
-You do not need to append `-f usd` if you are going to keep the prices in USD. The default is already USD.
+NOTE: You do not need to append `-f usd` if you are going to keep the prices in USD. The default is already USD.
+
+NOTE: You can use full names or tickers. `btc` or `bitcoin` are both valid, however some names have hyphens (-). Check the full list here: https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit#gid=0
+
 
 `python3 coingecko_sidebar_bot.py -c btc -f usd -t TOKEN_HERE`
 
