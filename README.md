@@ -10,6 +10,7 @@ How to use this bot:
 
 3. Download this script, don't copy and paste, the unicode fiat symbols will mess up.
 4. Create THREE roles in your server, choose some names and colors, the role color will represent the color your bot will be if the price is up, down or the same.
+
 ![image](https://user-images.githubusercontent.com/93408277/147629148-0d1a3967-5bba-46c8-b6fa-ab6c17e08d10.png)
 
 5. Whatever you named your roles will go here. To make it easy, I made them the green, orange and red circle emoji.
