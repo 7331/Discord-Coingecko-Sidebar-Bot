@@ -4,6 +4,17 @@ This is a bot that will be placed in the sidebar of your discord server, configu
 ![image](https://user-images.githubusercontent.com/93408277/147702443-a7bff50f-b0fb-4e42-8cc5-759480401c04.png)
 
 
+Prerequisites:
+
+`pip install requests` or `pip3 install requests`
+
+`pip install discord` or `pip3 install discord`
+
+`pip install asyncio` or `pip3 install asyncio`
+
+`pip install aiohttp` or `pip3 install aiohttp`
+
+
 How to use this script:
 
 1. Go to https://discord.com/developers/applications and create an application
@@ -20,13 +31,15 @@ How to use this script:
 
 
 5. DOWNLOAD the script, do not copy and paste it. The unicode will mess up the fiat currencies.
-6. Run the script on a VPS (USE TMUX OR SCREEN TO KEEP THEM ALIVE IN THE BACKGROUND!)! Here are some examples:
+6. Run the script on a VPS (USE TMUX OR SCREEN TO KEEP THEM ALIVE IN THE BACKGROUND!)!
 
 NOTE: You do not need to append `-f usd` if you are going to keep the prices in USD. The default is already USD.
 
 NOTE: You can use full names or tickers. `btc` or `bitcoin` are both valid, however some names have hyphens (-). Check the full list here: https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit#gid=0
 
-
+ Here are some examples:
+ 
+ 
 `python3 coingecko_sidebar_bot.py -c btc -f usd -t TOKEN_HERE`
 
 `python3 coingecko_sidebar_bot.py -c bitcoin -f usd -t TOKEN_HERE`
