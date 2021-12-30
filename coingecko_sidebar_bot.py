@@ -20,10 +20,7 @@ def round_to_nearest_zero(n):
 		index = re.search('[1-9]', str_n).start()
 		return f'{str_n[:index + 3]}'
 
-	if n > 1 and n < 99_999:
-		return f'{n:,.2f}'.replace('.00', '')
-
-	if n > 99_999:
+	if n > 1:
 		return f'{n:,.2f}'.replace('.00', '')
 
 
